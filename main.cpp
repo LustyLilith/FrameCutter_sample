@@ -35,7 +35,7 @@ bool captureFrames(char* filename)
 }
 
 
-void main(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	if (2 < argc)
 	{
@@ -45,5 +45,5 @@ void main(int argc, char** argv)
 		
 	captureFrames(argv[1]);
 
-	return;
+	return 0;
 }
